@@ -1,6 +1,6 @@
 const question = prompt('What do you want to do? (add, sub, mult, div)');
-let firstNumber = +prompt('Write first number, please');
-let secondNumber = +prompt('Write second number, please');
+const firstNumber = +prompt('Write first number, please');
+const secondNumber = +prompt('Write second number, please');
 
 if (question === 'add') {
 	alert(`The result is ${firstNumber + secondNumber}`);
